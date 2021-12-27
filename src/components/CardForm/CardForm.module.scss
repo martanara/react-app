@@ -1,0 +1,27 @@
+@import '../../styles/settings.scss';
+
+.cardForm {
+  margin-top: -18px;;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%
+}
+
+.cardFormInput {
+  flex: 8;
+}
+
+.cardFormButton {
+  margin-right: -12px;
+  flex: 4;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1201px) {
+  .cardForm {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

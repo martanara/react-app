@@ -28,7 +28,7 @@ const ColumnForm = () => {
       <span>Icon:</span> <TextInput type="text" value={icon} onChange={e => setIcon(e.target.value)} />
     </div>
     <div className={styles.columnFormButton}>
-      <Button secondary>Add column</Button>
+      <Button>Add column</Button>
     </div>
     </form>
   );

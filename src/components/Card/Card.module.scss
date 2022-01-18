@@ -1,13 +1,33 @@
 @import '../../styles/settings.scss';
 
 .card {
-    position: relative;
-    background: $color-light;
-    border: 1px solid lighten($color-dark, 60%);
-    padding: $base-size;
-    margin: 0 0 $base-size 0;
-    border-radius: $radius;
-    display: flex;
-    justify-content: space-between;
-    font-weight: bold;
+  position: relative;
+  background: $color-light;
+  border: 1px solid lighten($color-dark, 60%);
+  padding: $base-size;
+  margin: 0 0 $base-size 0;
+  border-radius: $radius;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+
+.button {
+  color: #a9aeb8;
+  background: transparent;
+  border: 0;
+  text-align: center;
+  border-radius: $radius;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: $transition;
+
+  &:hover {
+      color: goldenrod;
+  }
+  &.isFavorite {
+    color: $color-warning;
+  }
 }

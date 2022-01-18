@@ -1,8 +1,7 @@
-// import styles from './ColumnForm.module.scss';
+import styles from './ColumnForm.module.scss';
 import { useState } from 'react';
 import Button from '../Button/Button.js';
 import TextInput from '../TextInput/TextInput.js';
-import styles from './ColumnForm.module.scss';
 import { useDispatch } from 'react-redux'
 import { addColumn } from '../../redux/store'
 

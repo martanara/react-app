@@ -1,0 +1,38 @@
+@import '../../styles/settings.scss';
+
+.ListForm {
+  margin: 0 auto;
+  width: 55%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.ListFormTitle {
+  margin: 12px;
+}
+
+.ListFormInput {
+  margin: 12px;
+}
+
+.ListFormButton {
+  padding-top: 26px;
+}
+
+@media (max-width: 1200px) {
+  .ListForm {
+    width: 80%;
+  }
+}
+
+@media (max-width: 787px) {
+  .ListForm {
+    flex-direction: List;
+  }
+  .ListFormButton {
+    padding-top: 12px;
+  }
+}

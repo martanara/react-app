@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom'
 const Lists = () => {
 
   const lists = useSelector(state => getAllLists(state))
-  console.log(lists)
 
   return (
     <section className={styles.lists}>

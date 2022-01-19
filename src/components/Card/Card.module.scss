@@ -10,11 +10,12 @@
   display: flex;
   justify-content: space-between;
   font-weight: bold;
+  transition: $transition;
 }
 
 
 .button {
-  color: #a9aeb8;
+  color: $color-gray;
   background: transparent;
   border: 0;
   text-align: center;
@@ -23,9 +24,10 @@
   font-weight: 700;
   text-transform: uppercase;
   transition: $transition;
+  margin-left: 10px;
 
   &:hover {
-      color: goldenrod;
+      color: $color-warning;
   }
   &.isFavorite {
     color: $color-warning;
